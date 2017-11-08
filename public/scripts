@@ -1,0 +1,14 @@
+
+composer create-project laravel/laravel myBlog
+- Downloads laravel project
+- Be sure to execute report on desired directory
+1.  "laravel/laravel": the class of framework to be executed
+2. "myBlog": project name
+
+php artisan make:model User -m
+- Create a model class
+1. "User" : is the model name
+2. "-m": to also create a migration file
+
+composer dump-autoload
+- If "failed to open stream no such file or directory" error show
